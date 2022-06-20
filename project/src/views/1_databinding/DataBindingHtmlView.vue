@@ -1,5 +1,7 @@
 <template>
-    <div>{{htmlString}}</div>
+    <div>
+        <div v-html="htmlString"></div>
+    </div>
 </template>
 <script>
 export default {

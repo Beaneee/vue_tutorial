@@ -24,6 +24,46 @@ const routes = [
     path: '/data_binding/html',
     name: 'data_binding_html_view',
     component: () => import(/* webpackChunkName: "data_binding", webpackPrefetch:true */ '../views/1_databinding/DataBindingHtmlView.vue')
+  },
+  {
+    path: '/data_binding/input',
+    name: 'data_binding_input_view',
+    component: () => import(/* webpackChunkName: "data_binding", webpackPrefetch:true */ '../views/1_databinding/DataBindingInputView.vue')
+  },
+  {
+    path: '/data_binding/select',
+    name: 'data_binding_select_view',
+    component: () => import(/* webpackChunkName: "data_binding", webpackPrefetch:true */ '../views/1_databinding/DataBindingSelectView.vue')
+  },
+  {
+    path: '/data_binding/check',
+    name: 'data_binding_check_view',
+    component: () => import(/* webpackChunkName: "data_binding", webpackPrefetch:true */ '../views/1_databinding/DataBindingCheckBoxView.vue')
+  },
+  {
+    path: '/data_binding/radio',
+    name: 'data_binding_radio_view',
+    component: () => import(/* webpackChunkName: "data_binding", webpackPrefetch:true */ '../views/1_databinding/DataBindingRadioView.vue')
+  },
+  {
+    path: '/data_binding/attribute',
+    name: 'data_binding_attribute_view',
+    component: () => import(/* webpackChunkName: "data_binding", webpackPrefetch:true */ '../views/1_databinding/DataBindingAttributeView.vue')
+  },
+  {
+    path: '/data_binding/list',
+    name: 'data_binding_list_view',
+    component: () => import(/* webpackChunkName: "data_binding", webpackPrefetch:true */ '../views/1_databinding/DataBindingListView.vue')
+  },
+  {
+    path: '/data_binding/class',
+    name: 'data_binding_class_view',
+    component: () => import(/* webpackChunkName: "data_binding", webpackPrefetch:true */ '../views/1_databinding/DataBindingClassView.vue')
+  },
+  {
+    path: '/data_binding/style',
+    name: 'data_binding_style_view',
+    component: () => import(/* webpackChunkName: "data_binding", webpackPrefetch:true */ '../views/1_databinding/DataBindingStyleView.vue')
   }
 ]
 

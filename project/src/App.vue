@@ -1,7 +1,17 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/data_binding/string">String</router-link> |
+    <router-link to="/data_binding/html">Html</router-link> |
+    <router-link to="/data_binding/input">Input</router-link> |
+    <router-link to="/data_binding/select">Select</router-link> |
+    <router-link to="/data_binding/check">Check</router-link> |
+    <router-link to="/data_binding/radio">Radio</router-link> |
+    <router-link to="/data_binding/attribute">Attribute</router-link> |
+    <router-link to="/data_binding/list">List</router-link> |
+    <router-link to="/data_binding/class">Class</router-link> |
+    <router-link to="/data_binding/style">Style</router-link> |
   </nav>
   <router-view/>
 </template>
