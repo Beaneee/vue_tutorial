@@ -11,7 +11,12 @@
     <router-link to="/data_binding/attribute">Attribute</router-link> |
     <router-link to="/data_binding/list">List</router-link> |
     <router-link to="/data_binding/class">Class</router-link> |
-    <router-link to="/data_binding/style">Style</router-link> |
+    <router-link to="/data_binding/style">Style</router-link>
+    <br>
+    <br>
+    <router-link to="/event/click">Click</router-link> |
+    <router-link to="/event/change">Change</router-link> |
+    <router-link to="/event/key">Change</router-link> |
   </nav>
   <router-view/>
 </template>
